@@ -1,0 +1,78 @@
+html{
+  box-sizing: border-box;
+}
+body{
+  background-color: #D8D8D8;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.main-container{
+  width: 100%;
+  margin:25px 25px 25px 25px;
+}
+.header-container{
+  height: 250px;
+  width: 93%;
+  background-color: #fff;
+
+}
+p{
+  font: Helvetica;
+  font-size: 20px;
+}
+.click-1{
+  height: 50px;
+  width: 125px;
+  background-color: #D0021B;
+  margin-left: 25px;
+  margin-top: 125px;
+  float: left;
+}
+.click1{
+  font-size: 25px;
+  color: white;
+  font-family: Helvetica;
+
+  }
+.click-2{
+  height: 50px;
+  width: 125px;
+  background-color: #4A90E2;
+  margin-top: 145px;
+  margin-left: 175px;
+}
+div p{
+  font-size: 25px;
+  color: white;
+  font-family: Helvetica;
+
+}
+.main-footer{
+  height: 525px;
+  width: 93%;
+  background-color: #fff;
+  margin-top: 35px;
+  padding-top: 25px;
+
+  }
+  .image-holder{
+    height: 300px;
+    width: 90%;
+    background-color: #4A4A4A;
+    margin-left: 35px;
+      }
+  h1{
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+  }
+footer p{
+  font-size: 20px;
+}
